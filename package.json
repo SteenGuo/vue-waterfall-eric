@@ -1,0 +1,50 @@
+{
+  "name": "vue-waterfall-eric",
+  "version": "1.0.0",
+  "description": "A waterfall layout component for Vue.js",
+  "main": "lib/vue-waterfall-eric.min.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteenGuo/vue-waterfall-eric.git"
+  },
+  "keywords": [
+    "vue",
+    "waterfall",
+    "eric",
+    "vue-waterfall-eric"
+  ],
+  "author": "SteenGuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SteenGuo/vue-waterfall-eric/issues"
+  },
+  "homepage": "https://github.com/SteenGuo/vue-waterfall-eric#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.0-beta.0",
+    "css-loader": "^3.2.0",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2"
+  }
+}
