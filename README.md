@@ -5,7 +5,7 @@ A waterfall layout component for Vue.js
 ## Installation
 
 ```shell
-npm install --save vue-waterfall
+npm install --save vue-waterfall-eric
 ```
 
 ### Import
