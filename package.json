@@ -1,6 +1,6 @@
 {
   "name": "vue-waterfall-eric",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A waterfall layout component for Vue.js",
   "private": false,
   "main": "lib/vue-waterfall-eric.min.js",
