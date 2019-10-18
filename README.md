@@ -14,6 +14,7 @@ npm install --save vue-waterfall-eric
 /* in main.js */
 import Vue from "vue";
 import Waterfall from 'vue-waterfall-eric'
+import "animate.css"
 
 Vue.use(Waterfall);
 
@@ -23,11 +24,11 @@ Vue.use(Waterfall);
     <eric-waterfall-slot :config="props.config">
       <div class="list-item">
         <div>
-          <p>图片{{ props.item.id }}</p>
+          <p>Picture{{ props.item.id }}</p>
         </div>
       </div>
       <div class="item-bottom" slot="bottom">
-        <span>拓展区域</span>
+        <span>Extended area</span>
       </div>
     </eric-waterfall-slot>
   </template>
@@ -104,3 +105,7 @@ new Vue({
     </tr>
   </tbody>
 </table>
+
+### ericWaterfallSlot
+
+<code>props.item</code> Inherited from the list items,has all the attributes of the list item
