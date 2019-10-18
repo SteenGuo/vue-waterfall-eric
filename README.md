@@ -70,7 +70,7 @@ new Vue({
       <td>list</td>
       <td>Array</td>
       <td><code>[]</code></td>
-      <td>Data list.</td>
+      <td>Data list.'picHeight' and 'picWidth' must be included in each item.Other attributes are inherited by ericWaterfallSlot</td>
     </tr>
     <tr>
       <td>column</td>
