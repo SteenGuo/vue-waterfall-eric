@@ -72,5 +72,17 @@ new Vue({
       <td><code>[]</code></td>
       <td>Data list.</td>
     </tr>
+    <tr>
+      <td>column</td>
+      <td>Number</td>
+      <td><code>2</code></td>
+      <td>The number of columns.</td>
+    </tr>
+    <tr>
+      <td>gap</td>
+      <td>Number</td>
+      <td><code>2.6667</code>(vw)</td>
+      <td>The number of columns.</td>
+    </tr>
   </tbody>
 </table>
