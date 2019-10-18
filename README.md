@@ -87,14 +87,20 @@ new Vue({
     <tr>
       <td>heightExtendScale</td>
       <td>Number</td>
-      <td><code>44/164</code>(vw)</td>
+      <td><code>44/164</code></td>
       <td>Depth-width ratio of the extension area of the inner element</td>
     </tr>
     <tr>
       <td>maxItemScale</td>
       <td>Number</td>
-      <td><code>2</code>(vw)</td>
+      <td><code>2</code></td>
       <td>Max depth-width ratio of the extension area of the inner element</td>
+    </tr>
+    <tr>
+      <td>animate</td>
+      <td>String</td>
+      <td><code>fadeInUp</code></td>
+      <td>If the project import 'animate.css', you can use the 'animate.css' class</td>
     </tr>
   </tbody>
 </table>
