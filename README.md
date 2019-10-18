@@ -45,8 +45,8 @@ Vue.use(Waterfall);
 new Vue({
   ...
 	components: {
-		ericWaterfall: ericWaterfall.ericWaterfall,
-		ericWaterfallSlot: ericWaterfall.ericWaterfallSlot
+		ericWaterfall: waterfall.ericWaterfall
+		ericWaterfallSlot: waterfall.ericWaterfallSlot
 	},
   ...
 })
