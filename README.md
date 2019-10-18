@@ -44,10 +44,10 @@ Vue.use(Waterfall);
 ```js
 new Vue({
   ...
-	components: {
-		ericWaterfall: waterfall.ericWaterfall
-		ericWaterfallSlot: waterfall.ericWaterfallSlot
-	},
+  components: {
+    ericWaterfall: waterfall.ericWaterfall
+    ericWaterfallSlot: waterfall.ericWaterfallSlot
+  },
   ...
 })
 ```
