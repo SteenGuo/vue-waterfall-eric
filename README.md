@@ -69,7 +69,8 @@ new Vue({
     <tr>
       <td>list</td>
       <td>Array</td>
-      <td><code>[]</code>. Data list.</td>
+      <td><code>[]</code></td>
+      <td>Data list.</td>
     </tr>
   </tbody>
 </table>
