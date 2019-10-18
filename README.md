@@ -55,3 +55,21 @@ new Vue({
 ## Props
 
 ### ericWaterfall
+
+<table>
+  <thead>
+    <tr>
+      <th width="160">Name</th>
+      <th width="160">Type</th>
+      <th width="160">Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>list</td>
+      <td>Array</td>
+      <td><code>[]</code>. Data list.</td>
+    </tr>
+  </tbody>
+</table>
