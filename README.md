@@ -20,8 +20,8 @@ Vue.use(Waterfall);
 /* in xxx.vue */
 <eric-waterfall :list="list" :column="2" :gap="2.6667" :height-extend-scale="44 / 164" :max-item-scale="2" animate="fadeInUp">
 	<template scope="props">
-		<eric-waterfall-slot :config="props.config">
-			<div class="list-item">
+	  <eric-waterfall-slot :config="props.config">
+		  <div class="list-item">
 				<div>
 					<p>图片{{ props.item.id }}</p>
 				</div>
