@@ -19,7 +19,7 @@ export default {
     column: { type: Number, default: 2 }, //列数
     gap: { type: Number, default: 2.6667 }, //间隔 单位vw
     heightExtendScale: { type: Number, default: 44 / 164 }, //内部单元高度拓展比例 （与列宽的比例）
-    maxItemScale: { type: Number, default: 2 }, //内部单元最大高宽比 单位vw
+    maxItemScale: { type: Number, default: 2 }, //内部单元最大高宽比 
     animate: { type: String, default: "fadeInUp" }
   },
   data() {

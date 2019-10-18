@@ -82,7 +82,19 @@ new Vue({
       <td>gap</td>
       <td>Number</td>
       <td><code>2.6667</code>(vw)</td>
-      <td>The number of columns.</td>
+      <td>The space between the top, bottom and left of the inner element</td>
+    </tr>
+    <tr>
+      <td>heightExtendScale</td>
+      <td>Number</td>
+      <td><code>44/164</code>(vw)</td>
+      <td>Depth-width ratio of the extension area of the inner element</td>
+    </tr>
+    <tr>
+      <td>maxItemScale</td>
+      <td>Number</td>
+      <td><code>2</code>(vw)</td>
+      <td>Max depth-width ratio of the extension area of the inner element</td>
     </tr>
   </tbody>
 </table>
