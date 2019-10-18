@@ -108,4 +108,4 @@ new Vue({
 
 ### ericWaterfallSlot
 
-<code>props.item</code> Inherited from the list items,has all the attributes of the list item
+<code>props.item</code> Inherited from the list item,has all the attributes of the list item
