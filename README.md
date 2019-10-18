@@ -55,5 +55,3 @@ new Vue({
 ## Props
 
 ### ericWaterfall
-
-
